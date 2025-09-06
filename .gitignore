@@ -1,0 +1,52 @@
+# .gitignore for SuperMall React + Firebase Project
+
+# Node dependency modules
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Firebase local emulator data
+.firebase/
+.firestore/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files containing secrets, API keys etc
+.env
+.env.local
+.env.*.local
+
+# Firebase config secrets - (if you manage local files for Google credentials)
+google-services.json
+GoogleService-Info.plist
+
+# MacOS system files
+.DS_Store
+
+# IDE Editor folders/files
+.vscode/
+.idea/
+
+/coverage
+*.lcov
+
+# Temporary files and caches
+tmp/
+.cache/
+
+# Ignore React testing library snapshots (optional)
+src/__tests__/__snapshots__/
+
+# Lerna logs and temp files (if lerna used)
+lerna-debug.log*
+
+# Miscellaneous
+*.tgz
+*.lock
+.yarn-integrity
